@@ -13,4 +13,17 @@ public struct DataModel {
     
     public var name = "XYZ"
     
+    public init() { }
+}
+
+public protocol ABCDataConfigurable {
+    
+    func configureDataX(_ data: DataModel)
+    func configureDataY(_ data: DataModel)
+}
+
+public extension ABCDataConfigurable {
+    
+    func configureDataX(_ data: DataModel) {  }
+    
 }
