@@ -11,7 +11,7 @@ public struct DataModel {
     
     public let id = UUID()
     
-    public var name = "XYZ-updated-on-30-oct-2022"
+    public var name = "XYZ-updated-on-sunday"
     
     public init() { }
 }
